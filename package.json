@@ -25,8 +25,7 @@
     "postpublish": "git push origin master --follow-tags",
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish",
-    "patch": "npm version patch && npm publish",
-    "postinstall": "npm install & npm run build"
+    "patch": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
